@@ -6,4 +6,5 @@ do
   prebuildify --target node@"${nodeVersions[$i]}.0.0" --platform win32 --arch x64
   prebuildify --target node@"${nodeVersions[$i]}.0.0" --platform win32 --arch arm64
   prebuildify --target node@"${nodeVersions[$i]}.0.0" --platform linux --arch x64
+  prebuildify --target node@"${nodeVersions[$i]}.0.0" --platform darwin --arch x64
 done
